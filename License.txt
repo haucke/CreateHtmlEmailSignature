@@ -1,0 +1,14 @@
+Lisez Moi
+Copyright 2013 see solve llc.
+
+As long as this copyright notice, license information, and warranty and 
+liability notice is retained within the script, permission is granted to 
+anyone to: copy this script; modify this script; distribute the script or 
+modified versions of the script; run this script or a modified version 
+of this script on any computer.
+
+see solve llc is not liable for damages caused as a result of running 
+this script or any modified version of this script. The user installs and 
+runs the script at their own risk.
+
+http://seesolve.com/
