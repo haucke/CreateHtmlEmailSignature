@@ -25,7 +25,7 @@ The script was created using Lion (10.7) and tested on Mountain Lion (10.8). I d
 This is an issue with Mavericks and probably Yosemite (10.9 and 10.10). [The process for enabling GUI scripting has changed](https://github.com/seesolve/CreateHtmlEmailSignature/issues/3). Looking into code signing the script in order for the script to run properly.
 
 ### Contributing
-I am relatively new to GitHub and may not have immediate answers on how to navigate the platform. That said, if you want to help, please feel free to fork and send a pull request when you've fixed an issue.
+I am relatively new to GitHub and may not have immediate answers on how to navigate the platform. That said, if you want to help, please feel free to fork and send a pull request when you've fixed an issue. Use comments liberally. You can check the the existing script's comments for commenting style.
 
 ### License
 Read the [license](https://github.com/seesolve/CreateHtmlEmailSignature/blob/master/License.txt).
