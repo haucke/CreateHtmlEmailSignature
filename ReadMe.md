@@ -7,7 +7,7 @@ Mac OS X 10.7.x - 10.8.x.
 The script requires an active internet connection, GUI scripting (script will attempt to enable), and that your HTML email signature template is accessible online.
 
 ### Installation
-It's a script; installation is not required. You can [download the zip file](https://github.com/seesolve/CreateHtmlEmailSignature/archive/master.zip) and extract the script. Opening the script file will open AppleScript Editor and you will be able to run the script. You can also copy the raw text of CreateHtmlEmailSignature.scpt and paste it into an empty AppleScript Editor window to save the script on your computer.
+It's a script; installation is not required. You can [download the zip file](https://github.com/seesolve/CreateHtmlEmailSignature/archive/master.zip) and extract the script. Opening the script file will open AppleScript Editor and you will be able to run the script. You can also copy the raw text of CreateHtmlEmailSignature.applescript and paste it into an empty AppleScript Editor window to save the script on your computer.
 
 ### Help
 The best way to request help is to post a new [issue](https://github.com/seesolve/CreateHtmlEmailSignature/issues/).
