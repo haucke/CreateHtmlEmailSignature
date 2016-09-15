@@ -29,15 +29,23 @@ end if
 
 set textOSVersion to system version of (system info)
 
-if ((textOSVersion does not start with "10.7") and (textOSVersion does not start with "10.8")) then
-	display dialog "You are using OS" & space & textOSVersion & ". This script is configured to run on 10.7 or 10.8 and will now quit." buttons {textButtonOkay} default button textButtonOkay cancel button textButtonOkay with title "Script Quitting"
-end if
-
-if (textOSVersion starts with "10.7") then
-	set boolVersionLion to true
-else
-	set boolVersionLion to false
-end if
+considering numeric strings
+	if (textOSVersion > 10.6) and (textOSVersion < 10.12) then
+		-- set an indicator for Lion, as it uses a different signature file format
+		if (textOSVersion starts with "10.7") then
+			set boolVersionLion to true
+		else
+			set boolVersionLion to false
+		end if
+		
+		-- notify user this script is not tested on Mavericks
+		if (textOSVersion starts with "10.9") then
+			display dialog "This script has not been tested on 10.9 (Mavericks) but may work on it. Use with caution." & return & return & "Report any issues to https://github.com/seesolve/CreateHtmlEmailSignature/issues" buttons {textButtonOkay} default button textButtonOkay cancel button textButtonOkay with title "Use With Caution" with icon caution
+		end if
+	else
+		display dialog "You are using OS" & space & textOSVersion & ". This script is configured to run on 10.7, 10.8, 10.10 and 10.11 (Lion, Mountain Lion, Yosemite and El Capitan). This script has not been tested on 10.9 (Mavericks) but may work on it." & return & return & "This script will now quit." buttons {textButtonOkay} default button textButtonOkay cancel button textButtonOkay with title "Script Quitting"
+	end if
+end considering
 
 
 my subCheckGuiScriptingEnabled()
