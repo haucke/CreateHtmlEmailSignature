@@ -59,14 +59,12 @@ my subMailSignaturesPrefsWindowCheck()
 --
 -- Ask user for user's name, job title, and email address.
 --
-tell application "System Events"
-	activate
-	set textUserName to text returned of (display dialog "Please enter your name, as you would like it to appear in your email signature" default answer textUserName buttons {textButtonCancel, textButtonOkay} default button textButtonOkay cancel button textButtonCancel with title "Enter User's Name")
+set textUserName to text returned of (display dialog "Please enter your name, as you would like it to appear in your email signature" default answer textUserName buttons {textButtonCancel, textButtonOkay} default button textButtonOkay cancel button textButtonCancel with title "Enter User's Name")
 	
-	set textUserEmail to text returned of (display dialog "Please enter the email address you would like to use in your email signature" default answer "" buttons {textButtonCancel, textButtonOkay} default button textButtonOkay cancel button textButtonCancel with title "Enter User's Email Address")
+set textUserEmail to text returned of (display dialog "Please enter the email address you would like to use in your email signature" default answer "" buttons {textButtonCancel, textButtonOkay} default button textButtonOkay cancel button textButtonCancel with title "Enter User's Email Address")
 	
-	set textUserJobTitle to text returned of (display dialog "Please enter the job title you would like displayed in your email signature" default answer "" buttons {textButtonCancel, textButtonOkay} default button textButtonOkay cancel button textButtonCancel with title "Enter User's Job Title")
-end tell
+set textUserJobTitle to text returned of (display dialog "Please enter the job title you would like displayed in your email signature" default answer "" buttons {textButtonCancel, textButtonOkay} default button textButtonOkay cancel button textButtonCancel with title "Enter User's Job Title")
+
 
 
 
