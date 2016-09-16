@@ -16,7 +16,7 @@ The best way to request help is to post a new [issue](https://github.com/seesolv
 Report problems on the [issue tracking page](https://github.com/seesolve/CreateHtmlEmailSignature/issues). Following are some current issues to be aware of. 
 
 #### iCloud
-After the signature is imported into Mail.app, [the signature disappears](https://github.com/seesolve/CreateHtmlEmailSignature/issues/1). This appers to be caused by iCloud's documents and data syncing preferences and is being worked on.
+After the signature is imported into Mail.app, [the signature disappears](https://github.com/seesolve/CreateHtmlEmailSignature/issues/1). This appears to be caused by iCloud's documents and data syncing preferences and is being worked on.
 
 #### Mavericks and Yosemite (OS X 10.9 and 10.10)
 The script was created using Lion (10.7) and tested on Mountain Lion (10.8). I don't have a Mavericks or Yosemite computer to test or update the script for those versions. Please [report issues](https://github.com/seesolve/CreateHtmlEmailSignature/issues/2), and I'll help troubleshoot.
