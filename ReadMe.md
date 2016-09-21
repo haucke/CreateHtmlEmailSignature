@@ -18,14 +18,14 @@ Report problems on the [issue tracking page](https://github.com/seesolve/CreateH
 #### iCloud
 After the signature is imported into Mail.app, [the signature disappears](https://github.com/seesolve/CreateHtmlEmailSignature/issues/1). This appers to be caused by iCloud's documents and data syncing preferences and is being worked on.
 
-#### Mavericks and Yosemite (OS X 10.9 and 10.10)
-The script was created using Lion (10.7) and tested on Mountain Lion (10.8). I don't have a Mavericks or Yosemite computer to test or update the script for those versions. Please [report issues](https://github.com/seesolve/CreateHtmlEmailSignature/issues/2), and I'll help troubleshoot.
+#### Mavericks, Yosemite, El Capitan, and Sierra (Mac OS 10.9, 10.10, 10.11, and 10.12)
+The script was created using Lion (10.7) and tested on Mountain Lion (10.8). I don't have a computer with later versions to test or update the script. If you're running one of those versions and would like to help update the script, please [leave a comment](https://github.com/seesolve/CreateHtmlEmailSignature/issues/4).
 
 #### Can’t set UI elements enabled of application to true
-This is an issue with Mavericks and probably Yosemite (10.9 and 10.10). [The process for enabling GUI scripting has changed](https://github.com/seesolve/CreateHtmlEmailSignature/issues/3). Looking into code signing the script in order for the script to run properly.
+This is an issue with Mavericks and later versions (10.9+). [The process for enabling GUI scripting has changed](https://support.apple.com/en-us/HT202802).
 
 ### Contributing
-I am relatively new to GitHub and may not have immediate answers on how to navigate the platform. That said, if you want to help, please feel free to fork and send a pull request when you've fixed an issue. Use comments liberally. You can check the the existing script's comments for commenting style.
+Contributions welcome. Welcome testers running Mavericks or later (10.9+).
 
 ### License
 Read the [license](https://github.com/seesolve/CreateHtmlEmailSignature/blob/master/License.txt).
