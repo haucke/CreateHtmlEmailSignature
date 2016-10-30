@@ -19,7 +19,7 @@ Report problems on the [issue tracking page](https://github.com/seesolve/CreateH
 After the signature is imported into Mail.app, [the signature disappears](https://github.com/seesolve/CreateHtmlEmailSignature/issues/1). This appers to be caused by iCloud's documents and data syncing preferences and is being worked on.
 
 #### Mavericks, Yosemite, El Capitan, and Sierra (Mac OS 10.9, 10.10, 10.11, and 10.12)
-The script was created using Lion (10.7) and tested on Mountain Lion (10.8). I don't have a computer with later versions to test or update the script. If you're running one of those versions and would like to help update the script, please [leave a comment](https://github.com/seesolve/CreateHtmlEmailSignature/issues/4).
+The script was created using Lion (10.7) and tested on Mountain Lion (10.8). I don't have a computer with later versions to test or update the script. If you're running one of those versions and would like to help update the script, please see [Contributing](https://github.com/seesolve/CreateHtmlEmailSignature/blob/master/Contributing.md).
 
 #### Can’t set UI elements enabled of application to true
 This is an issue with Mavericks and later versions (10.9+). [The process for enabling GUI scripting has changed](https://support.apple.com/en-us/HT202802).
