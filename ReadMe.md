@@ -25,7 +25,7 @@ The script was created using Lion (10.7) and tested on Mountain Lion (10.8). I d
 This is an issue with Mavericks and later versions (10.9+). [The process for enabling GUI scripting has changed](https://support.apple.com/en-us/HT202802).
 
 ### Contributing
-Contributions welcome. Currently seekers testers for Mac OS X versions 10.9+. See (Contributing)[https://github.com/seesolve/CreateHtmlEmailSignature/blob/master/Contributing.md] for more info.
+Contributions welcome. Currently seekers testers for Mac OS X versions 10.9+. See [Contributing](https://github.com/seesolve/CreateHtmlEmailSignature/blob/master/Contributing.md) for more info.
 
 ### License
 Read the [license](https://github.com/seesolve/CreateHtmlEmailSignature/blob/master/License.txt).
